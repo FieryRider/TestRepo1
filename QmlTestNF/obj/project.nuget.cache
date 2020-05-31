@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6P2I8XfPfbKFCeEbAR5dJ7ducNmzw2sUBsMpeOGOtcs/FKtadTXJ0SZrvQMBiZPfszXlprnM59cpLUOzXKdLCw==",
+  "success": true,
+  "projectFilePath": "D:\\@UserFolder@\\Documents\\code\\C#\\QmlTestNF\\QmlTestNF\\QmlTestNF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ivailo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Ivailo\\.nuget\\packages\\netnativelibloader\\0.1.1\\netnativelibloader.0.1.1.nupkg.sha512",
+    "C:\\Users\\Ivailo\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\Ivailo\\.nuget\\packages\\qml.net\\0.10.1\\qml.net.0.10.1.nupkg.sha512",
+    "C:\\Users\\Ivailo\\.nuget\\packages\\qml.net.windowsbinaries\\0.10.1\\qml.net.windowsbinaries.0.10.1.nupkg.sha512",
+    "C:\\Users\\Ivailo\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
