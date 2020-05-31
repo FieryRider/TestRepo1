@@ -13,7 +13,7 @@ namespace QmlTestNF
             {
                 using (var qmlEngine = new QQmlApplicationEngine())
                 {
-                    Qml.Net.Qml.RegisterType<MainController>("Extens");
+                    Qml.Net.Qml.RegisterType<MainController>("Controllers");
                     qmlEngine.Load("Main.qml");
                     
                     return application.Exec();

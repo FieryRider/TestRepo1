@@ -4,14 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{48C7908B-16FA-4FDF-8159-39C935E2F09E}</ProjectGuid>
+    <ProjectGuid>{6E829DB8-B314-4C9D-AC67-90D1FB67EE85}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>QmlTestNF</RootNamespace>
     <AssemblyName>QmlTestNF</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -74,11 +75,20 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Qml.Net">
-      <Version>0.10.1</Version>
+      <Version>0.11.0-alpha.78</Version>
+    </PackageReference>
+    <PackageReference Include="Qml.Net.LinuxBinaries">
+      <Version>0.11.0-alpha.78</Version>
+    </PackageReference>
+    <PackageReference Include="Qml.Net.OSXBinaries">
+      <Version>0.11.0-alpha.78</Version>
     </PackageReference>
     <PackageReference Include="Qml.Net.WindowsBinaries">
-      <Version>0.10.1</Version>
+      <Version>0.11.0-alpha.78</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /y $(ProjectDir)Main.qml $(ProjectDir)$(OutDir)</PostBuildEvent>
+  </PropertyGroup>
 </Project>

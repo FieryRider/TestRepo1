@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QmlTestNF", "QmlTestNF\QmlTestNF.csproj", "{48C7908B-16FA-4FDF-8159-39C935E2F09E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QmlTestNF", "QmlTestNF\QmlTestNF.csproj", "{6E829DB8-B314-4C9D-AC67-90D1FB67EE85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{48C7908B-16FA-4FDF-8159-39C935E2F09E}.Debug|x64.ActiveCfg = Debug|x64
-		{48C7908B-16FA-4FDF-8159-39C935E2F09E}.Debug|x64.Build.0 = Debug|x64
-		{48C7908B-16FA-4FDF-8159-39C935E2F09E}.Release|x64.ActiveCfg = Release|x64
-		{48C7908B-16FA-4FDF-8159-39C935E2F09E}.Release|x64.Build.0 = Release|x64
+		{6E829DB8-B314-4C9D-AC67-90D1FB67EE85}.Debug|x64.ActiveCfg = Debug|x64
+		{6E829DB8-B314-4C9D-AC67-90D1FB67EE85}.Debug|x64.Build.0 = Debug|x64
+		{6E829DB8-B314-4C9D-AC67-90D1FB67EE85}.Release|x64.ActiveCfg = Release|x64
+		{6E829DB8-B314-4C9D-AC67-90D1FB67EE85}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EFEF277C-6ED6-4E5D-B593-B0FE95F121B4}
+		SolutionGuid = {B988CF49-AC57-4267-8701-849767402278}
 	EndGlobalSection
 EndGlobal
