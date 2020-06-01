@@ -1,2 +1,3 @@
-QmlTestNF/bin/
-QmlTestNF/obj/
+.vs
+QmlNetTest/bin/
+QmlNetTest/obj/
