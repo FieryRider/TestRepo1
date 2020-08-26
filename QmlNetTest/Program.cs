@@ -7,6 +7,7 @@ namespace QmlNetTest
     {
         static int Main(string[] args)
         {
+
             RuntimeManager.DiscoverOrDownloadSuitableQtRuntime();
 
             QQuickStyle.SetStyle("Material");
@@ -16,6 +17,7 @@ namespace QmlNetTest
                 using (var qmlEngine = new QQmlApplicationEngine())
                 {
                     Qml.Net.Qml.RegisterType<MainController>("Controllers");
+                    Qml.Net.Qml.RegisterType<SimpleList>("Lists");
                     qmlEngine.Load("Main.qml");
                     
                     return application.Exec();
